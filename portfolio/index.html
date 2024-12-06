@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/a3ce20a4e7.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script> 
+</head>
+<body>
+    <!--nav section-->
+    <header class="flex justify-between p-3 font-semibold bg-indigo-500 text-white">
+        <h1 class="ms-16 text-3xl">Michael <span class="text-fuchsia-900">Adetayo</span></h1>
+        <nav class="flex me-24 text-xl list-none space-x-4">
+            <li class="hover:text-fuchsia-900"><a href="#home">Home</a></li>
+            <li class="hover:text-fuchsia-900"><a href="#skills">Skills</a></li>
+            <li class="hover:text-fuchsia-900"><a href="#projects">Projects</a></li>
+            <li class="hover:text-fuchsia-900"><a href="#contact">Contact</a></li>
+            
+        </nav>
+    </header>
+
+    <!--home section-->
+
+    <section id="home">
+        <div class="flex justify-around pt-24 bg-indigo-600">
+            <div>
+            <h1 class="text-fuchsia-900 text-4xl font-extrabold mb-8">Hi,</h1>
+                <p class="text-3xl text-white font-bold">I'm Michael a Full Stack Developer</p>
+            </div>                                 
+            <div>
+                <img src="asset/aypix.jpg" alt="profile picture">
+            </div>
+        </div>
+    </section>
+
+    <!-- skill section -->
+
+    <section id="skills">
+        <div class="bg-indigo-700">
+            <div class="row flex p-12 text-white space-x-6">
+                <div class="col-1 bg-stone-600 p-4 rounded-lg">
+                    <i class="fa-brands fa-html5 text-3xl"></i>
+                     <h2 class="text-2xl">Html</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                         Modi assumenda minima magni, placeat quisquam debitis 
+                         earum fuga exercitationem nostrum porro! Quo tibus?
+                    </p>
+                </div>
+                <div class="col-1 bg-stone-600 p-4 rounded-lg">
+                    <i class="fa-brands fa-css3 text-3xl"></i>
+                     <h2 class="text-2xl">Css</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                         Modi assumenda minima magni, placeat quisquam debitis 
+                         earum fuga exercitationem nostrum porro! Quo tibus?
+                    </p>
+                </div>
+                <div class="col-1 bg-stone-600 p-4 rounded-lg">
+                    <i class="fa-solid fa-code text-3xl"></i>
+                     <h2 class="text-2xl">Javascript</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                         Modi assumenda minima magni, placeat quisquam debitis 
+                         earum fuga exercitationem nostrum porro! Quo tibus?
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--project section-->
+
+    <section id="Projects">
+         <div class="title bg-indigo-500 flex">
+            <div class="ps-12 text-white w-1/2">
+                <h3 class="text-3xl pt-8 ps-36">Designers</h3>
+                <p class="mt-8 ps-10 text-center  p-2 border rounded-md ms-3 w-2/3">this project is built based on an online store</p>
+                <img src="asset/product.png" height="100" width="450" alt="product">
+            </div>
+
+            <div class="ps-12 text-white w-1/2">
+                <h3 class="text-3xl pt-8 ps-36">Restaurant</h3>
+                <p class="mt-8 ps-10 text-center  p-2 border rounded-md ms-3 w-2/3">this project was built on ordering good food online</p>
+                <img src="asset/food.png" height="100" width="450" alt="food">
+            </div>
+
+         </div>
+         <div class=""></div>
+
+    </section>
+
+    <!--contact section-->
+
+    <section id="contact">
+
+        
+            
+                 <form action="/action_page.php">
+                    
+
+                    
+                    
+                        
+             <div class="p-24 bg-indigo-400 text-center text-white border-sm">
+                       <div class="">
+                          <h3>Personal Details:</h3>
+                        </div> 
+                     <div>
+                        <label for="Fname">FirstName</label>
+                     </div> 
+                      <div>
+                        <input type="text" id="Fname" value="">
+                      </div>
+                      <div>
+                        <label for="Lname">LasttName</label>
+                      </div>
+
+                      <div>
+                        <input type="text" id="Lname" value="">
+                      </div>
+                      <div>
+                        <label for="email">Email Address</label>
+                      </div>
+                    
+                      <div>
+                        <input type="email" id="email" value="">
+                      </div>
+                      <div>
+                        <label for="nessage">Message</label>
+                      </div>
+                      <div>
+                        <textarea name="message" style="width:200px; height:200px;">
+                        
+                        </textarea>
+                      </div>
+                      
+                      <div>
+                        <input type="submit" value="Submit">
+                      </div>
+            </div>
+                    
+                    
+
+                
+                 </form> 
+
+                 <footer>
+                    <div class="flex justify-center space-x-4 bg-indigo-600 text-white text-2xl">
+                    <p>Copyright &copy;2024</p>
+                    <p>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                    </p>
+                </div>
+                 </footer>
+          
+        
+
+    </section>
+    
+</body>
+</html>
